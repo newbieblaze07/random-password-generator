@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #1F2937;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 10px 35px 0 35px;
+    gap: 2rem;
+    width: 35rem;
+    border-radius: 10px;
+}
+.generator{
+    display: flex;
+    flex-direction: column;
+    
+    border-bottom: 1px solid grey;
+
+}
+h1{
+    color: white;
+}
+.green{
+    color: rgb(83, 192, 83);
+}
+.aboutgen{
+    color: #D5D4D8;
+    font-size: large;
+}
+button{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    background-color: #10B981;
+    font-weight:700;
+    padding: 9px 15px 9px 15px;
+    color: white;
+    border-bottom: px solid grey;
+    border-radius: 10px;
+    border: none;
+}
+.passwords{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-evenly;
+    padding: 0 0 2rem 0;
+}
+/* .pass1{
+    width:auto;
+    background-color: #273549;
+    color: #10B981;
+    font-size: 1rem;
+    font-weight: 500;
+    flex: 1;
+} */
+#pass2,#pass1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #273549;
+    color: #10B981;
+    flex: 1;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+   
+    /* text-align: center; */
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(223, 252, 180);
+    transition: 0.4s ease;
+}
